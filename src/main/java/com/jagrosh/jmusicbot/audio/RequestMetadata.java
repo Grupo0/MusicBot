@@ -51,7 +51,10 @@ public class RequestMetadata
     public class UserInfo
     {
         public final long id;
-        public final String username, discrim, avatar;
+        
+        public final String username;
+        public final String discrim;
+        public final String avatar;
         
         private UserInfo(long id, String username, String discrim, String avatar)
         {
